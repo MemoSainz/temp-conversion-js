@@ -1,0 +1,91 @@
+html {
+	font-family: 'Cascadia Code';
+	background-color: #4d5157;
+}
+
+h1 {
+	color: cornflowerblue;
+}
+
+form {
+	background-color: #666b72;
+	text-align: center;
+	max-width: 350px;
+	margin: auto;
+	padding: 25px;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.2rem 0.3rem cornflowerblue;
+
+	transition: all 0.3s ease;
+}
+
+form:hover {
+	box-shadow: 0 0.1rem 0.3rem crimson;
+	transition: all 0.7s ease;
+}
+
+#textBox {
+	width: 50%;
+	text-align: center;
+	font-size: 2em;
+	border: 2px solid hsla(0, 0%, 0%, 0.8);
+	border-radius: 0.8rem;
+	margin-bottom: 15px;
+}
+
+label {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+button {
+	margin-top: 15px;
+	background-color: hsla(0, 100%, 50%, 0.6);
+	color: white;
+	font-size: 1.5em;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.7s ease;
+}
+
+button:hover {
+	background-color: hsla(275, 85%, 48%, 0.379);
+	transition: all 0.7s ease;
+}
+
+#result {
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+button[type='github'] {
+	padding: 5px 8px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: background-color 0.4s ease;
+}
+
+button[type='github']:hover {
+	transition: background-color 0.9s ease;
+	background-color: #af4c9d;
+}
+
+.footer {
+	background-color: #303030;
+	color: #fff;
+	clear: both;
+	font-family: 'ubuntu';
+
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	border-width: 30%;
+}
